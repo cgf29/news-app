@@ -1,6 +1,6 @@
 {
-  "homepage": "http://cgf29.github.io/news-app",
-  "name": "news-app",
+  "homepage": "http://cgf29.github.io/news-search-app",
+  "name": "news-search-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
