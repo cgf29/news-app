@@ -1,0 +1,17 @@
+.navbar{
+   padding: 15px;
+   background: #F3F92F;
+   font-family: sans-serif;
+   font-weight: bold;
+   }
+   .link{
+      margin: 10px;
+      text-decoration: none;
+      color: #333;
+      padding: 7px;
+      border-radius: 7px;
+      animation-duration: .5s;
+   }
+   .link:hover{
+      background: #fff;
+   }

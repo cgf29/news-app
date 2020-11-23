@@ -1,0 +1,48 @@
+.article{
+   font-family: sans-serif;
+   padding: 15px;
+   margin-bottom: 25px;
+   background: #E1EAFD;
+}
+
+.article__title{
+   font-weight: bold;
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+
+.article__details{
+   font-size: 12px;
+   color: #444;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+
+.article__description{
+   margin-bottom: 10px;
+}
+
+.article__main > a{
+   text-decoration: none;
+   color: #348DFE;
+}
+
+.article__main > a:hover{
+   color: #025FA4;
+}
+
+.article__img{
+   width: 500px;
+}
+
+.article__img > img{
+   max-width: 100%;
+   min-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+   .article__img{
+      max-width: 350px;
+   }
+}
