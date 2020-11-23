@@ -26,7 +26,7 @@ export const globalNewsReducer = (state = initialState, { type, payload }) => {
       case FETCH_ARTICLES:
          return {
             ...state,
-            articles:  state.articles.length > 1 ? payload.newTopic ?payload.articles : state.articles.concat(payload.articles) :  payload.articles,
+            articles: payload.articles,
             totalResults: payload.totalResults  
          }
       case SET_IS_LOADING:

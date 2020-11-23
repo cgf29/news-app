@@ -33,7 +33,7 @@ const GlobalNews = () => {
    // document.addEventListener('scroll', scrollHandler)
 
    useEffect(() => {
-      dispatch(fetchArticles(inputValue, selectedCountry, selectedCategory, currentPage))
+      dispatch(fetchArticles(inputValue, selectedCountry, selectedCategory, true))
    }, [])
 
    // useEffect(() => {
@@ -58,7 +58,7 @@ const GlobalNews = () => {
    const searchArticles = (q, country, category) => {
       // e.prevantDefault()
 
-      dispatch(fetchArticles(q, country, category, 1, true))
+      dispatch(fetchArticles(q, country, category, true))
       // let url = ``
       // history.push(
          // q
